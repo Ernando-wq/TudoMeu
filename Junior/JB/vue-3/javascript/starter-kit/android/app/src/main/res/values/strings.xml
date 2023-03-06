@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Jb</string>
+    <string name="title_activity_main">Jb</string>
+    <string name="package_name">com.Jb.app</string>
+    <string name="custom_url_scheme">com.Jb.app</string>
+</resources>

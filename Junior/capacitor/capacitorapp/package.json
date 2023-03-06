@@ -1,0 +1,26 @@
+{
+  "name": "capacitorapp",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "@capacitor-community/bluetooth-le": "^2.0.1",
+    "@capacitor/android": "^4.3.0",
+    "@capacitor/camera": "^4.1.2",
+    "@capacitor/cli": "^4.3.0",
+    "@capacitor/core": "^4.3.0",
+    "@capacitor/device": "^4.0.1",
+    "@capacitor/geolocation": "^4.0.1",
+    "@capacitor/ios": "^4.3.0",
+    "@ionic/pwa-elements": "^3.1.1",
+    "vue": "^3.2.38",
+    "vue-plugin-load-script": "^2.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "vite": "^3.0.9"
+  }
+}

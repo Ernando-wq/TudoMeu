@@ -1,0 +1,478 @@
+html, body {
+    min-height: 100%;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+.container {
+    background-color: #ffffff;
+    background-image: linear-gradient(0deg, #ffffff 2%, #B5FFFC 10%, #ffffff 99%);
+}
+
+.main {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+}
+
+.inicio {
+    margin-top: 50px;
+    width: 20%;
+    padding-left: 50px;
+}
+
+.inicio-D {
+    margin-top: 50px;
+    padding-right: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: end;
+}
+
+.space {
+    font-size: larger;
+    color:  #000080;
+    margin-right: 30px;
+}
+
+.carrinho {
+    background-color: rgba(255, 166, 0, 0.89);
+    margin-top: 15px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    width: 100px;
+    margin-right: 30px;
+}
+
+.texto1 {
+    margin-top: 40px;
+    padding-left: 50px;
+    width: 40%;
+}
+
+.texto2 {
+    width: 60%;
+}
+
+.corpo {
+    width: 100%;
+    display: flex;
+}
+
+.btn {
+    margin-top: 25px;
+    border: none;
+    background-color: #f1a21c;
+    border-radius: 20px;
+    width: 25%;
+    height: 35px;
+}
+
+.img {
+    width: 100%;
+}
+
+.img-bulldog {
+    border-radius: 10%;
+    box-shadow: 3px 3px 12px 2px #00000065;
+    height: 108px;  
+    margin-top: 60px;
+    width: 40%;
+}
+
+.gato {
+    box-shadow: 3px 3px 12px 2px #00000065;
+    margin-left: 10px;
+    height: 108px;
+    border-radius: 15%;
+    width: 40%;
+
+}
+
+.saude {
+    margin-top: 100px;
+    display: flex;
+    color: #8181ff;
+    margin-left: 55px;
+    font-size: xx-large;
+}
+
+.btn-dog {
+    margin-top: 70px;
+    border: none;
+    background-color: lightgreen;
+    color: rgba(0, 128, 0, 0.397);
+    border-radius: 25px;
+    margin-left: 55px;
+    font-size: 340%;
+    height: 85px;
+    width: 15%;
+
+}
+
+.icons {
+    margin: auto;
+    display: flex;
+}
+
+.icon-texto {
+    margin-left: 20px;
+    color: #8181ff;
+    margin-top: 100px;
+}
+
+.btn-life {
+    margin-top: 70px;
+    border: none;
+    background-color: rgba(255, 166, 0, 0.459);
+    color: rgba(255, 166, 0, 0.459);
+    border-radius: 25px;
+    margin-left: 55px;
+    font-size: 340%;
+    height: 90px;
+    width: 15%;
+
+}
+
+.btn-heart {
+    margin-top: 70px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.507);
+    color: red;
+    border-radius: 25px;
+    margin-left: 55px;
+    font-size: 340%;
+    height: 90px;
+    width: 15%;
+
+}
+
+.container2 {
+    background-color: #ffffff;
+    background-image: linear-gradient(0deg, #ffffff 2%, #B5FFFC 10%, #ffffff 99%);
+
+
+    width: 100%;
+
+}
+
+.icon-texto1 {
+    margin-left: 20px;
+    color: #8181ff;
+    margin-top: 80px;
+}
+
+.icon-texto2 {
+    margin-left: 20px;
+    color: #8181ff;
+    margin-top: 80px;
+}
+
+.icon-texto3 {
+    margin-left: 20px;
+    color: #8181ff;
+    margin-top: 98px;
+}
+
+.parte2 {
+    display: flex;
+}
+
+.button {
+
+    display: flex;
+}
+
+.btn-A {
+    margin-left: 58px;
+    color: #ffffff;
+    background-color: #f1a21c;
+    border: none;
+    border-radius: 15px;
+    margin-top: 30px;
+    width: 10%;
+    height: 30px;
+}
+
+.img-S1 {
+
+    margin-top: 60px;
+    width: 20%;
+}
+
+.valor {
+    background-color: #f1a21c;
+    border: none;
+    border-radius: 5px;
+    margin-left: 60px;
+    width: 10%;
+}
+
+.btn-B {
+    margin-left: 150px;
+    color: #ffffff;
+    background-color: #f1a21c;
+    border: none;
+    border-radius: 15px;
+    margin-top: 30px;
+    width: 10%;
+    height: 30px;
+}
+
+.valor1 {
+    background-color: #f1a21c;
+    border: none;
+    border-radius: 5px;
+    margin-left: 150px;
+    width: 10%;
+}
+
+/* setor de .produtos   */
+.produtos {
+
+    display: flex;
+}
+
+.animal {
+    margin-left: 10px;
+    margin-top: 50px;
+    border-radius: 15px;
+    /* text-align: -webkit-center; */
+    width: 23%;
+    border: 3px solid #f1a21c;
+    border: 3px solid #f1a21c42;
+    box-shadow: 3px 3px 12px 2px #6e4a0c36;
+}
+.animal .nome{
+    
+    justify-content: space-around;
+}
+.animal .nome span{
+    color:  #000080;
+    font-size: large;
+}
+.animal .nome button {
+    height: 19px;
+    border: #f1a21c;
+    margin-left: 8px;
+    margin-top: 9px;
+    color: white;
+    border-radius: 140px;
+    width: 24%;
+    background-color: #f1a21c;
+}
+.animal .img-sell {
+    text-align: -webkit-center;
+
+}
+.animal .img-sell img {
+    width: 80%;
+}
+.animal .Price h4 {
+    font-size: larger;
+    color: black;
+    margin-left: 19px;
+
+}
+.nome{
+    display: flex;
+}
+.animal .Price .value i{
+    color: navy;
+    font-size: xx-large;
+    margin-top: 18px;
+    margin-left: 45%;
+
+}
+.animal .Price h5 {
+
+    color: black;
+    margin-left: 19px;
+
+}
+.carrocel{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.carrocel .button {
+    color: #707070;
+    margin-top: 50px;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.vitrine{
+    width: 100%;
+    display: flex;
+}
+.img1 img{
+    width: 20%;
+    
+}
+
+.vitrine .coluna1{
+    width: 28%;
+}
+.vitrine .coluna1 img{
+    margin-top: 10px;
+    display: block;
+    margin-left: 60px;
+    height: 30%;
+    border-radius: 5%;
+    width: 85%;
+}
+.vitrine .coluna1 .img2{
+    height: 55%;
+    width: 85%;
+}
+.vitrine .coluna2 {
+    width: 33%;
+}
+.vitrine .coluna2 .img-husky{
+    border-radius: 5%;
+    margin-left: 3%;
+    margin-top: 10px;
+    display: block;
+    width: 98%;
+    height: 45%;
+
+}
+.vitrine .coluna2 .dog-praia{
+    height: 40%;
+    border-radius: 5%;
+    margin-top: 10px;
+    width: 98%;
+    margin-left: 3%;
+}
+.vitrine .coluna3 {
+    width: 33%;
+}
+.vitrine .coluna3 .dog3{
+    box-shadow: 3px 3px 12px 2px #00000065;
+    border-radius: 15px;
+    margin-left: 3%;
+    width: 90%;
+    height: 46%;
+}
+.vitrine .coluna3 .cat{
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 3%;
+    width: 80%;
+}
+.text{
+    display: flex;
+    width: 100%;
+}
+.text .text-esquerdo{
+    margin-top: 10%;
+    color: #000080;
+    margin-left:  60px;
+    width: 50%;
+}
+.text .tex-direito  {
+    width: 50% ;
+}
+.text .text-direito img{
+    width: 100%;
+}
+.contato{
+    align-items: self-end;
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+.contato .dog-1{
+    height: 260px;
+    opacity: 0.5;
+    width: 33%;
+}
+.contato .center-inpt{
+    background-color:  #0000805e;
+    color: white;
+    text-align: -webkit-center;
+    border-radius: 15px;
+    border: none;
+    width: 25%;
+    height: 40%;
+}
+.contato .gato1{
+    height: 303px;
+    opacity: 0.5;
+
+    width: 33%;
+}
+.contato .dog-1 img{
+    width: 100%;
+}
+.contato .gato1 img{
+    width: 100%;
+}
+.contato .center-inpt input{
+    width: 50%;
+    border: none;
+    border-radius: 15px;
+}
+.contato .center-inpt button{
+    color: #000080;
+    background-color: #f1a21c;
+    width: 25%;
+    border: none;
+    border-radius: 15px;
+}
+
+.img-inicial{
+    display: flex;
+    width: 100%;
+    height: 323px;
+    /* justify-items: center; */
+    align-items: flex-end;
+}
+.rodaPe{
+    width: 100%;
+    margin-top: 16px;
+    background-color: #00008086;
+    /* display: flex; */
+}
+.rodaPe .r1{
+    width: 25%;
+}
+.rodaPe .r2{
+    font-size: larger;
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 20px;
+    width: 75%;
+}
+.rodaPe .r3{
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.rodaPe .r1 h3{
+    margin-left: 30px;
+    font-size: xx-large;
+}
+.rodape .r3 .gg-facebook{
+    
+    font-size: xx-large;
+    margin-right: 40px;
+}
+.ass{
+    margin-right: 20px;
+    text-align-last: center;
+}
+.ass h3{
+    margin-right: 160px;    
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">vue-testjb</string>
+    <string name="title_activity_main">vue-testjb</string>
+    <string name="package_name">com.jbtest.app</string>
+    <string name="custom_url_scheme">com.jbtest.app</string>
+</resources>

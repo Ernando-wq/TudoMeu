@@ -1,0 +1,49 @@
+.calc-input{
+    width: 100%;
+    border-radius: 6px;
+}
+.calc-btn-ac{
+    border-color: black;
+    border-radius: 62%;
+    height: 22%;
+    margin-top: 10px;
+}
+.calc-btn-porcentagem{
+    border-color: black;
+    border-radius: 70%;
+    height: 22%;
+    margin-top: 10px;
+    width: 18%;
+}
+.btn-number{
+    border-color: black;
+    width: 50px;
+}
+.btn-number2{
+    border-color: black;
+    width: 50px;
+    background-color: orange;
+}
+.box-shadow{
+    height: 36px;
+    border: solid 1px;
+    border-radius: 10px;
+    box-shadow: 1px 0x 12px;
+    box-shadow: 1px 0px 6px;
+}
+.ml-38{
+    margin-left: 38px;
+}
+.ml-87{
+    margin-left: 87px;
+}
+.ml-54{
+    margin-left: 54px;
+}
+.background-color{
+    background-color: orange;
+}
+.card-shadow{
+    box-shadow: 0px 0px 5px;
+    border-radius: 7px;
+}

@@ -1,0 +1,6 @@
+{
+  "appId": "com.jbtest.app",
+  "appName": "vue-testjb",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

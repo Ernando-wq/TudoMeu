@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div class="barra">
+        <div class="coluna1">
+            <div class="MenuL">
+                <Button class="btnL"><b>Inicio</b></Button>
+                <button class="btnL"><b>Sobre</b></button>
+                <button class="btnL"><b>Cartão</b></button>
+            </div>
+
+        </div>
+
+        <div class="coluna2">
+            <div class="MenuR">
+
+                <button class="btnR"><b>Log In</b></button>
+                <button class="btnSing">Sing Up</button>
+
+            </div>
+        </div>
+    </div>
+
+    <hr class="linha">
+
+    <div class="corpo">
+        <div class="coluna3">
+            <h1 style="font-size: 65px;">Make a New <br> with one <br>click
+                <br>
+                <button class="btnCR">
+                    Create Now
+                </button>
+            </h1>
+            
+        </div>
+
+        <div class="coluna4">
+            <img src="cartao-visa.png" alt="cartao">
+        </div>
+    </div>
+
+    <footer class="rodaPe">
+        <div class="r1">
+            <h1 style="font-size: 45px; margin-right: 15px;">13</h1>
+            <p>Years of <br> experience <br> in banking</p>
+        </div>
+        <div class="r1">
+            <h1 style="font-size: 45px; margin-right: 15px; ">1%</h1>
+            <p>Cashback <br> from each <br> purchase</p>
+        </div>
+        <div class="r1">
+            <h1 style="font-size: 45px; margin-right: 15px;">15</h1>
+            <p>Maximum <br> support <br> response time</p>
+        </div>
+        <div class="r1">
+            <h1 style="font-size: 45px; margin-right: 15px;">8k</h1>
+            <p> Actively using <br>customer cards <br>in the world</p>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
+
+
+<Style>
+    html, body {
+    min-height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    
+}
+     
+    .barra {
+        width: 100%;
+        display: flex;
+        background-color: white;
+        height: 60px;
+        align-items: center;
+        border-radius: 3px;
+        border: 1px solid rate;
+    }
+
+    .coluna1 {
+        width: 50%;
+        display: flex;
+        justify-content: start;
+
+    }
+
+    .coluna2 {
+        width: 50%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .btnL {
+        margin-right: 35px;
+        background-color: transparent;
+        border: none;
+
+    }
+
+    .MenuL {
+        margin-left: 50px;
+    }
+
+    .MenuR {
+        margin-right: 50px;
+    }
+
+    .btnR {
+        margin-right: 35px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .btnSing {
+        color: white;
+        border: none;
+        background-color: black;
+        border-radius: 25px;
+        height: 30px;
+        width: 80px;
+    }
+
+    .corpo {
+        width: 100%;
+        display: flex;
+        background-color: white;
+        height: 700px;
+        align-items: center;
+        border-radius: 8px;
+        margin: 0;
+        padding: 0;
+        
+
+    }
+
+    .btnCR {
+        background-color: black;
+        color: white;
+        height: 40px;
+        width: 190px;
+        border-radius: 25px;
+        
+    }
+    .coluna3{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .coluna4{
+        width: 50%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-right: 300px;
+    }
+    
+   .rodaPe{
+    width: 100%;
+    display: flex;
+    background-color: rgb(175, 231, 119);
+    height: 115px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    
+        
+
+    
+
+   }
+   .r1{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+</Style>

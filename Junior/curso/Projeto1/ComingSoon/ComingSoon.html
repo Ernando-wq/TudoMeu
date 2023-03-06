@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ComingSoon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/solid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container text-align">
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn btn-primary"> Using password</button>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="col-md-6 text-align-center">
+                    <h1><b class="text" >COMING SOON</b></h1>
+                    <div class="font-size-70" id="div_relogio">
+                    </div>
+                    <HR>
+                    <p class="mt-25">
+                        We are currently working on an awesome new site. Stay tuned for more information. Subscribe to
+                        our newsletter to stay updated on our progress.
+                    </p>
+                    <div>
+                        <div class="d-flex justify-content-center mt-25" >
+                            <input  style="width: 50%;" type="text" class="form-control" placeholder="Enter your Email Address">
+                            <button class="btn btn-primary"> SUBSCRIBE</button>
+                            
+                        </div>
+                    </div>
+                    <div style="display:flex; justify-content:center; margin-top: 50px; ">
+                        <i class="fa fa-facebook-square" style="font-size:48px;color:rgba(0, 0, 255, 0.473)"></i>
+                        <i class="fa fa-twitter-square ml-10" style="font-size:48px;color:cornflowerblue"></i>
+                        <i class="fa fa-instagram ml-10" style="font-size:48px;color:rgba(255, 0, 0, 0.43)"></i>
+                        <i class="fa fa-pinterest ml-10" style="font-size:48px;color:rgba(255, 0, 0, 0.712)"></i>
+
+                    </div>
+                    <p style="margin-top: 25px;" >© 2022, riode-theme Powered by Shopify</p>
+                </div>
+                <div class="col-md-6">
+                    <img  src="coming-soon_720x.webp" alt="">
+                </div>
+            </div>
+            <div>
+
+            </div>
+        </div>
+        
+    </div>
+
+
+</body>
+<script>
+    function Relogio() {
+        var data = new Date();
+        var dat = data.getDate();
+        var hr = data.getHours();
+        var min = data.getMinutes();
+        var sec = data.getSeconds();
+
+        var tempo_total = dat + ":" + hr + ":" + min + ":" + sec;
+        var tempo = window.document.getElementById('div_relogio')
+
+        tempo.innerHTML = tempo_total;
+    }
+    setInterval(Relogio, 500)
+</script>
+
+</html>
